@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-int reverse = 9;
-while (reverse > 0)
+char reverse = 'z';
+while (reverse >= 'a')
 {
-putchar('0' + reverse);
+putchar(reverse);
 reverse--;
 }
 putchar('\n');
