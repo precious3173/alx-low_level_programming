@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-fun
- * Return=0
- * i*/
+ * main - fun
+ * Decription: second task
+ * Return: value is 0
+ */
 int main(void)
 {
 int n;
@@ -20,7 +21,7 @@ else if (lastDigit == 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 }
-else 
+else
 {
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 }
