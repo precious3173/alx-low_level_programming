@@ -4,10 +4,11 @@ int main()
 
 char c = 'a';
 
-for (c; c <= 'z'; c++)
+while (c < 'z')
 {
 putchar(c);
-putchar('\n');
+c++
 }
+
 return(0);
 }
