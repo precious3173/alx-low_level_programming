@@ -6,21 +6,17 @@
 */
 int main(void)
 {
-int num = 0;
-while (num <= 16)
+int num = 48;
+int num2 = 97;
+while (num <= 57)
 {
-if (num < 10)
-{
-putchar('0' + num);
-}
-else if (num >= 10 && num <= 16)
-{
-int last = num % 10;
-int first = num / 10;
-putchar('0' + first);
-putchar('0' + last);
-}
+putchar(num);
 num++;
+}
+while (num2 <= 102)
+{
+putchar(num2);
+num2++;
 }
 putchar('\n');
 return (0);
