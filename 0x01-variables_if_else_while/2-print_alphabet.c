@@ -4,7 +4,7 @@
 *Description: putchar task
 *Return: returm 0
 */
-int main()
+int main(void)
 {
 char c = 'a';
 while (c <= 'z')
@@ -12,5 +12,6 @@ while (c <= 'z')
 putchar(c);
 c++;
 }
-return(0);
+putchar('\n');
+return (0);
 }
