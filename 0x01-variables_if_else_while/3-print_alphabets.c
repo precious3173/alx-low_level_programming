@@ -19,7 +19,6 @@ while (uc <= 'Z')
 putchar(uc);
 uc++;
 }
-putchar('\n');
 return (0);
 }
 
