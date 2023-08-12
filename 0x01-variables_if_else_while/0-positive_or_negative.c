@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* betty style doc ifor function main goes there */
+/**
+ *main-fun
+ *Return: 0
+*/
 int main(void)
 {
 int n;
