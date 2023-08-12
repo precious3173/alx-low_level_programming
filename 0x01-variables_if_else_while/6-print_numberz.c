@@ -7,9 +7,9 @@
 int main(void)
 {
 int num = 0;
-while (num <= 10)
+while (num < 10)
 {
-putchar(num + 48);
+putchar('0' + num);
 num++;
 }
 putchar('\n');
