@@ -9,13 +9,14 @@ int main(void)
 int num = 0;
 while (num <= 16)
 {
-if (num <10)
+if (num < 10)
 {
-putchar('0' + num);  
+putchar('0' + num);
 }
-else if (num >= 10 && num <= 16){
-int last = num%10;
-int first = num/10;
+else if (num >= 10 && num <= 16)
+{
+int last = num % 10;
+int first = num / 10;
 putchar('0' + first);
 putchar('0' + last);
 }
