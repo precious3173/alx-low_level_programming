@@ -10,6 +10,7 @@ int n = 0;
 int j = n + 1;
 while (n <= 9)
 {
+n++;
 while (j <= 9)
 {
 putchar(n + '0');
@@ -21,7 +22,6 @@ putchar(' ');
 }
 j++;
 }
-n++;
 }
 putchar('\n');
 return (0);
