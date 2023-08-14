@@ -6,19 +6,19 @@
 */
 int main(void)
 {
-int n = 1;
-while (n <= 89)
+int n = 0;
+for (n; n <= 9; n++)
 {
-int first = n / 10;
-int last = n % 10;
-putchar('0' + first);
-putchar('0' + last);
-if (n < 89)
+for (int j = n + 1; j <= 9; j++)
+{
+putchar(n + '0');
+putchar(j + '0');
+if (n < 8 || j < 9)
 {
 putchar(',');
 putchar(' ');
 }
-n++;
+}
 }
 putchar('\n');
 return (0);
