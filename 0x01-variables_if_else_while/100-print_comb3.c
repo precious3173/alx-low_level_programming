@@ -7,9 +7,10 @@
 int main(void)
 {
 int n = 0;
-for (n; n <= 9; n++)
+int j = n + 1;
+while (n <= 9)
 {
-for (int j = n + 1; j <= 9; j++)
+while (j <= 9)
 {
 putchar(n + '0');
 putchar(j + '0');
@@ -18,7 +19,9 @@ if (n < 8 || j < 9)
 putchar(',');
 putchar(' ');
 }
+j++;
 }
+n++;
 }
 putchar('\n');
 return (0);
