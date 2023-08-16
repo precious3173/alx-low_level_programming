@@ -9,10 +9,10 @@ int i = 0;
 char j = 'a';
 while (i <= 9)
 {
-_putchar(i);
 while (j < 'z')
 {
 _putchar(j);
+_putchar('\n');
 j++;
 }
 i++;
