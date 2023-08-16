@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _abs - task 6
+ * _abs - task 6
  * @i: character
  * Return: 1
  */
@@ -13,6 +13,6 @@ int _abs(int i)
 	}
 	else
 	{
-		return (i * - 1);
+		return (i * -1);
 	}
 }
