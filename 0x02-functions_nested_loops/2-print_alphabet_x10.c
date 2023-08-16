@@ -10,11 +10,11 @@ char j = 'a';
 while (i <= 9)
 {
 _putchar(i);
-i++;
 while (j < 'z')
 {
 _putchar(j);
 j++;
 }
+i++;
 }
 }
