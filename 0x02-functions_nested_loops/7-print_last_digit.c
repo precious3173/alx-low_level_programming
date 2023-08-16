@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - task 6
- * @i: character
+ * @n: character
  * Return: 1
  */
 int print_last_digit(int n)
@@ -19,4 +19,3 @@ int print_last_digit(int n)
 		return (a);
 	}
 }
-
