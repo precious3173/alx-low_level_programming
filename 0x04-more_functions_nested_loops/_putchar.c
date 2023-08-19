@@ -4,7 +4,8 @@
 /**
  * _putchar - check the code.
  *@c: The character
- *Return : return 0
+ *Description: Putchar to return int
+ *Return: return 0
  */
 int _putchar(char c)
 {
