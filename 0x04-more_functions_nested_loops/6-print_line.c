@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
+ * print_line - returns the largest of 3 numbers
+ * @n: first integer
  * Return: largest number
  */
 
@@ -19,7 +17,7 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-_putchar('_');
+_putchar(95);
 }
 _putchar('\n');
 }
