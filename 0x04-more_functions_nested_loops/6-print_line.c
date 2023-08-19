@@ -14,13 +14,13 @@ int i = -4;
 
 for (; i <= n; i++)
 {
-if (i <= 0)
+if (i == 0 || i == -4)
 {
 _putchar('\n');
 }
 else
 {
-_putchar(95);
+_putchar('_');
 }
 }
 _putchar('\n');
