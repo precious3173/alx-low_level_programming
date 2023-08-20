@@ -1,6 +1,6 @@
 #include "main.h"
 #include <unistd.h>
-
+#
 /**
  * _putchar - check the code.
  *@c: The character
