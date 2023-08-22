@@ -17,7 +17,7 @@ while (s[counter] != '\0')
 counter++;
 }
 for (j = 0; j < counter; j++)
-counter--;
+{counter--;
 i = s[j];
 s[j] = s[counter];
 s[counter] = i;
