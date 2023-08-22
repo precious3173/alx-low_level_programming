@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * puts2 - Function 
- * @str: Character
- * Return: return 0
- */
+*puts2 - Function
+*@str: Character
+*Return: return 0
+*/
 
 void puts2(char *str)
 {
@@ -15,7 +15,7 @@ while (str[j] != '\0')
 {
 j++;
 }
-for (i = 0; i < j; i+= 2)
+for (i = 0; i < j; i += 2)
 {
 _putchar(str[i]);
 }
