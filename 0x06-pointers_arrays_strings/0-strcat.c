@@ -21,4 +21,5 @@ _putchar(dest[count]);
 else
 _putchar('\n');
 }
+re
 }
