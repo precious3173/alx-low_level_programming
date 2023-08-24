@@ -2,7 +2,7 @@
 /**
   *reverse_array - Function
   *@a: First Parameter
-  *n: Second Parameter
+  *@n: Second Parameter
   *Return: return void
   */
 
