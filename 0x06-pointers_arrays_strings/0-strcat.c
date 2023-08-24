@@ -9,17 +9,18 @@
 
 char *_strcat(char *dest, char *src)
 {
-char src[100];
 int i = 0, j = 0;
-int max = 80;
-int count;
 
-for (count = 0; count < max; count++)
+while (dest[i] != '\0')
 {
-if (dest[count] != '\0')
-_putchar(dest[count]);
-else
-_putchar('\n');
+i++;
 }
-re
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+dest[i] = '\0';
+return (dest);
 }
