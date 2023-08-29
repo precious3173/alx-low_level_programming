@@ -15,7 +15,7 @@ int i = n;
 
 for (; a < i; a++)
 {
-dest[r] = drc[r];
+dest[a] = drc[a];
 n--;
 }
 return (dest);
